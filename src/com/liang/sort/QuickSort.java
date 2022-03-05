@@ -15,8 +15,8 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] arr = new int[] {10,5,9,7,2,1,6};
         int[] sort = sort(arr, 0, arr.length);
-        for (int i = 0; i < sort.length; i++) {
-            System.out.printf("%d ", sort[i]);
+        for (int j : sort) {
+            System.out.printf("%d ", j);
         }
     }
 
